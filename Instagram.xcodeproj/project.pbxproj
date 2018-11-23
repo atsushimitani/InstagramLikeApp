@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017119B621A820BE00861BA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 017119B521A820BE00861BA8 /* GoogleService-Info.plist */; };
 		01B0E37D21A1981D00EC8E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0E37C21A1981D00EC8E35 /* AppDelegate.swift */; };
 		01B0E37F21A1981D00EC8E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0E37E21A1981D00EC8E35 /* ViewController.swift */; };
 		01B0E38221A1981D00EC8E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B0E38021A1981D00EC8E35 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017119B521A820BE00861BA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		01B0E37921A1981D00EC8E35 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B0E37C21A1981D00EC8E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01B0E37E21A1981D00EC8E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		01B0E37B21A1981D00EC8E35 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				017119B521A820BE00861BA8 /* GoogleService-Info.plist */,
 				01B0E37C21A1981D00EC8E35 /* AppDelegate.swift */,
 				01B0E37E21A1981D00EC8E35 /* ViewController.swift */,
 				01B0E38021A1981D00EC8E35 /* Main.storyboard */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B0E38721A1981F00EC8E35 /* LaunchScreen.storyboard in Resources */,
+				017119B621A820BE00861BA8 /* GoogleService-Info.plist in Resources */,
 				01B0E38421A1981F00EC8E35 /* Assets.xcassets in Resources */,
 				01B0E38221A1981D00EC8E35 /* Main.storyboard in Resources */,
 			);
@@ -177,15 +181,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Instagram-checkManifestLockResult.txt",
 			);
@@ -199,15 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
 			);
