@@ -45,7 +45,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94O-YP-akb">
-                        <rect key="frame" x="130" y="465.5" width="285" height="21"/>
+                        <rect key="frame" x="210" y="466" width="205" height="20"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -56,16 +56,25 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYU-aD-5ZA">
+                        <rect key="frame" x="130" y="461" width="70" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="2uj-2q-9C9"/>
+                        </constraints>
+                        <state key="normal" title="コメント"/>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="oJy-WX-bDl" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="10" id="1LK-Wg-VyQ"/>
                     <constraint firstItem="n16-3y-kJF" firstAttribute="top" secondItem="cvT-ai-Zyi" secondAttribute="bottom" constant="10" id="5l0-jk-ZzY"/>
-                    <constraint firstItem="94O-YP-akb" firstAttribute="centerY" secondItem="n16-3y-kJF" secondAttribute="centerY" id="7At-np-hbm"/>
+                    <constraint firstItem="94O-YP-akb" firstAttribute="leading" secondItem="QYU-aD-5ZA" secondAttribute="trailing" constant="10" id="DEJ-b1-dOA"/>
                     <constraint firstAttribute="trailingMargin" secondItem="94O-YP-akb" secondAttribute="trailing" constant="10" id="DIK-tt-y4S"/>
-                    <constraint firstItem="94O-YP-akb" firstAttribute="leading" secondItem="lym-b3-UhS" secondAttribute="trailing" constant="10" id="KrJ-4M-93i"/>
+                    <constraint firstItem="94O-YP-akb" firstAttribute="centerY" secondItem="n16-3y-kJF" secondAttribute="centerY" id="FIj-WP-KMZ"/>
+                    <constraint firstItem="QYU-aD-5ZA" firstAttribute="leading" secondItem="lym-b3-UhS" secondAttribute="trailing" constant="10" id="HGQ-gl-GzB"/>
                     <constraint firstItem="cvT-ai-Zyi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="SOk-Hx-jx9"/>
+                    <constraint firstItem="lym-b3-UhS" firstAttribute="centerY" secondItem="n16-3y-kJF" secondAttribute="centerY" id="edM-3c-xnJ"/>
                     <constraint firstItem="lym-b3-UhS" firstAttribute="leading" secondItem="n16-3y-kJF" secondAttribute="trailing" constant="10" id="iEO-Rg-l0Z"/>
-                    <constraint firstItem="lym-b3-UhS" firstAttribute="centerY" secondItem="n16-3y-kJF" secondAttribute="centerY" id="jOV-uK-OJg"/>
+                    <constraint firstItem="QYU-aD-5ZA" firstAttribute="centerY" secondItem="n16-3y-kJF" secondAttribute="centerY" id="k8C-kV-gAU"/>
                     <constraint firstItem="n16-3y-kJF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="p5p-Th-FWq"/>
                     <constraint firstAttribute="trailingMargin" secondItem="cvT-ai-Zyi" secondAttribute="trailing" id="r4T-n4-wxJ"/>
                     <constraint firstItem="oJy-WX-bDl" firstAttribute="top" secondItem="n16-3y-kJF" secondAttribute="bottom" constant="10" id="urm-VP-56e"/>
