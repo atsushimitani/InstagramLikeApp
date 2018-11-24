@@ -19,6 +19,9 @@
 		01B0E39521A199EF00EC8E35 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0E39421A199EF00EC8E35 /* PostViewController.swift */; };
 		01B0E39721A199FC00EC8E35 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B0E39621A199FC00EC8E35 /* SettingViewController.swift */; };
 		01EF478421A8E48F002E0532 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF478321A8E48F002E0532 /* Const.swift */; };
+		01EF478821A8E8D5002E0532 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF478721A8E8D5002E0532 /* PostData.swift */; };
+		01EF478B21A8E9CF002E0532 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF478921A8E9CF002E0532 /* PostTableViewCell.swift */; };
+		01EF478C21A8E9CF002E0532 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EF478A21A8E9CF002E0532 /* PostTableViewCell.xib */; };
 		3BF400241223259B12B99686 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7249EB8D9E34FF4798576C39 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		01B0E39421A199EF00EC8E35 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		01B0E39621A199FC00EC8E35 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		01EF478321A8E48F002E0532 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		01EF478721A8E8D5002E0532 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		01EF478921A8E9CF002E0532 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		01EF478A21A8E9CF002E0532 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		7249EB8D9E34FF4798576C39 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1D2BDF34ACC828D92A0195 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		F4FA5B47632AC4147D657D57 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +94,9 @@
 				01B0E39421A199EF00EC8E35 /* PostViewController.swift */,
 				01B0E39621A199FC00EC8E35 /* SettingViewController.swift */,
 				01EF478321A8E48F002E0532 /* Const.swift */,
+				01EF478721A8E8D5002E0532 /* PostData.swift */,
+				01EF478921A8E9CF002E0532 /* PostTableViewCell.swift */,
+				01EF478A21A8E9CF002E0532 /* PostTableViewCell.xib */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B0E38721A1981F00EC8E35 /* LaunchScreen.storyboard in Resources */,
+				01EF478C21A8E9CF002E0532 /* PostTableViewCell.xib in Resources */,
 				017119B621A820BE00861BA8 /* GoogleService-Info.plist in Resources */,
 				01B0E38421A1981F00EC8E35 /* Assets.xcassets in Resources */,
 				01B0E38221A1981D00EC8E35 /* Main.storyboard in Resources */,
@@ -235,11 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B0E39521A199EF00EC8E35 /* PostViewController.swift in Sources */,
+				01EF478821A8E8D5002E0532 /* PostData.swift in Sources */,
 				01B0E38F21A199B300EC8E35 /* LoginViewController.swift in Sources */,
 				01B0E37F21A1981D00EC8E35 /* ViewController.swift in Sources */,
 				01B0E37D21A1981D00EC8E35 /* AppDelegate.swift in Sources */,
 				01B0E39321A199DF00EC8E35 /* ImageSelectViewController.swift in Sources */,
 				01EF478421A8E48F002E0532 /* Const.swift in Sources */,
+				01EF478B21A8E9CF002E0532 /* PostTableViewCell.swift in Sources */,
 				01B0E39721A199FC00EC8E35 /* SettingViewController.swift in Sources */,
 				01B0E39121A199C400EC8E35 /* HomeViewController.swift in Sources */,
 			);
