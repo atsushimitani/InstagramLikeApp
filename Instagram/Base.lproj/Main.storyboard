@@ -128,7 +128,47 @@
                     <view key="view" contentMode="scaleToFill" id="fag-LL-kct">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdk-jS-GMB">
+                                <rect key="frame" x="37.5" y="80" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="rJ7-lU-G8j"/>
+                                </constraints>
+                                <state key="normal" title="ライブラリ" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleLibraryButton:" destination="nT4-NC-Z6j" eventType="touchUpInside" id="KTR-Jv-XGG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSi-wd-Xbw">
+                                <rect key="frame" x="37" y="140" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="8Hu-SL-p8d"/>
+                                </constraints>
+                                <state key="normal" title="カメラ" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleCameraButton:" destination="nT4-NC-Z6j" eventType="touchUpInside" id="sd3-rE-gXA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et2-s6-9Z0">
+                                <rect key="frame" x="37.5" y="200" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="plB-VE-N3f"/>
+                                </constraints>
+                                <state key="normal" title="キャンセル" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="handleCancelButton:" destination="nT4-NC-Z6j" eventType="touchUpInside" id="xTM-Dl-eQl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rdk-jS-GMB" firstAttribute="top" secondItem="tmU-3J-dCf" secondAttribute="top" constant="60" id="3tZ-DO-Bx5"/>
+                            <constraint firstItem="wSi-wd-Xbw" firstAttribute="centerX" secondItem="fag-LL-kct" secondAttribute="centerX" id="EiW-uk-dtO"/>
+                            <constraint firstItem="rdk-jS-GMB" firstAttribute="centerX" secondItem="fag-LL-kct" secondAttribute="centerX" id="OXY-Kp-s3l"/>
+                            <constraint firstItem="Et2-s6-9Z0" firstAttribute="centerX" secondItem="fag-LL-kct" secondAttribute="centerX" id="ReX-C2-dRU"/>
+                            <constraint firstItem="wSi-wd-Xbw" firstAttribute="top" secondItem="rdk-jS-GMB" secondAttribute="bottom" constant="20" id="eqU-MP-oZo"/>
+                            <constraint firstItem="Et2-s6-9Z0" firstAttribute="top" secondItem="wSi-wd-Xbw" secondAttribute="bottom" constant="20" id="rny-mJ-WcV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tmU-3J-dCf"/>
                     </view>
                 </viewController>
