@@ -22,6 +22,8 @@ class PostTableViewCell: UITableViewCell {
     
     @IBOutlet weak var captionLabel: UILabel!
     
+    @IBOutlet weak var commentLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -52,6 +54,16 @@ class PostTableViewCell: UITableViewCell {
             let buttonImage = UIImage(named: "like_none")
             self.likeButton.setImage(buttonImage, for: .normal)
         }
+        
+        var commentText = ""
+        
+        for comment in postData.comments {
+            let commentBody = comment["comment"]
+            let name = comment["name"]
+            commentText += "\(name!) : \(commentBody!) \n"
+        }
+
+        self.commentLabel.text = commentText
     }
     
 }
